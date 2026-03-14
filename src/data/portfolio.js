@@ -4,7 +4,7 @@ export const portfolio = {
   role: "Web Developer | Tech & Business Profile",
   location: "Madrid, España",
   pitch:
-    "Construyo interfaces premium, apps y productos digitales listos para impresionar desde el primer vistazo.",
+    "Soy Diego Berrio, desarrollador frontend especializado en React, UX/UI y productos digitales mobile-first, con foco en interfaces visuales, rendimiento y experiencia de usuario.",
   email: "diegoaberrio@hotmail.com",
   github: "https://github.com/diegoaberrio",
   linkedin: "https://www.linkedin.com/in/diego-alonso-berr%C3%ADo-g%C3%B3mez",
