@@ -18,7 +18,7 @@ export const projects = [
     description:
       "Producto digital con enfoque full stack, diseñado para transformar procesos operativos en una experiencia visual, fluida y bien resuelta de principio a fin.",
     tags: ["React", "Full Stack", "Dashboard", "Product UX"],
-    demo: "",
+    demo: "https://fleetos.diegoincode.com",
     repo: "",
     assets: {
       loop: "fleetoos_loop_8s",
@@ -66,7 +66,7 @@ export const projects = [
     description:
       "Solución visual de planificación con foco en flujo guiado, claridad operativa y presentación comercial de producto.",
     tags: ["Logistics", "Planning", "Motion", "AI-style"],
-    demo: "",
+    demo: "https://turnoos.diegoincode.com",
     repo: "",
     assets: {
       loop: "turnoos_loop_8s",
@@ -90,7 +90,7 @@ export const projects = [
     description:
       "Dashboard y sistema de flujo para stock, reporting y acciones operativas con una capa visual más premium que administrativa.",
     tags: ["Inventory", "Reports", "UX", "React"],
-    demo: "",
+    demo: "https://stockos.diegoincode.com",
     repo: "",
     assets: {
       loop: "stockos_loop_8s",
@@ -138,7 +138,7 @@ export const projects = [
     description:
       "Aplicación financiera diseñada para guiar decisiones de inversión mediante flujos interactivos, análisis visual, proyecciones y recomendaciones dentro de una experiencia de producto sólida y bien resuelta.",
     tags: ["Fintech", "WealthTech", "Product", "Analytics"],
-    demo: "",
+    demo: "https://wealthos.diegoincode.com",
     repo: "",
     assets: {
       loop: "wealthos_loop_8s",
