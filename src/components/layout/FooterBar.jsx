@@ -4,6 +4,7 @@ import {
   Home,
   Instagram,
   Layers3,
+  LayoutGrid,
   Linkedin,
   Mail,
   Music2,
@@ -45,6 +46,11 @@ function FooterBar({ brand, reduceMotion, viewport }) {
             <a href="#projects">
               <Layers3 size={16} />
               <span>Proyectos</span>
+            </a>
+
+            <a href="#products">
+              <LayoutGrid size={16} />
+              <span>Productos</span>
             </a>
 
             <a href="#stack">
@@ -137,6 +143,11 @@ function FooterBar({ brand, reduceMotion, viewport }) {
         <a className="bottom-nav__item" href="#projects">
           <Layers3 size={18} />
           <span>Proyectos</span>
+        </a>
+
+        <a className="bottom-nav__item" href="#products">
+          <LayoutGrid size={18} />
+          <span>Productos</span>
         </a>
 
         <a className="bottom-nav__item" href="#stack">

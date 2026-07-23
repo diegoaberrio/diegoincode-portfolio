@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import {
   Layers3,
+  LayoutGrid,
   Sparkles,
   Code2,
   Mail,
@@ -33,6 +34,11 @@ function Topbar({ brand, isScrolled, reduceMotion }) {
           <a className="topbar__nav-link" href="#projects">
             <Layers3 size={16} />
             <span>Proyectos</span>
+          </a>
+
+          <a className="topbar__nav-link" href="#products">
+            <LayoutGrid size={16} />
+            <span>Productos</span>
           </a>
 
           <a className="topbar__nav-link" href="#services">

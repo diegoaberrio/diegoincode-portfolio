@@ -13,6 +13,7 @@ import {
   Play,
 } from "lucide-react";
 import { portfolio, projects } from "../data/portfolio";
+import { deployedProducts } from "../data/deployedProducts";
 import {
   getCloudinaryImage,
   getCloudinaryPoster,
@@ -21,6 +22,7 @@ import {
 } from "../utils/cloudinary";
 import Topbar from "../components/layout/Topbar";
 import FooterBar from "../components/layout/FooterBar";
+import DeployedProducts from "../components/sections/DeployedProducts";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 22 },
@@ -102,6 +104,16 @@ function HomePage() {
     return () => mediaQuery.removeListener(updateProjectMediaMode);
   }, []);
 
+  const openProject = (slug) => {
+    setActiveProjectSlug(slug);
+    setActiveShotIndex(0);
+  };
+
+  const closeModal = () => {
+    setActiveProjectSlug(null);
+    setActiveShotIndex(0);
+  };
+
   useEffect(() => {
     if (!activeProject) return;
 
@@ -133,16 +145,6 @@ function HomePage() {
       window.removeEventListener("keydown", onKeyDown);
     };
   }, [activeProject]);
-
-  const openProject = (slug) => {
-    setActiveProjectSlug(slug);
-    setActiveShotIndex(0);
-  };
-
-  const closeModal = () => {
-    setActiveProjectSlug(null);
-    setActiveShotIndex(0);
-  };
 
   const goPrevShot = () => {
     if (!activeProject) return;
@@ -440,6 +442,8 @@ function HomePage() {
             ))}
           </div>
         </motion.section>
+
+        <DeployedProducts products={deployedProducts} viewport={viewport} />
 
         <motion.section
           className="info-grid"
